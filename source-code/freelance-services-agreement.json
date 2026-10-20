@@ -1,0 +1,26 @@
+{
+  "templateId": "tmpl_msa_freelance",
+  "title": "Master Software Engineering & Design Services Agreement",
+  "jurisdiction": "State of Delaware, United States",
+  "documentDate": "2026-09-29",
+  "parties": {
+    "partyA": {
+      "name": "Apex Digital Labs LLC",
+      "role": "Service Provider",
+      "address": "1209 Orange Street, Wilmington, DE 19801"
+    },
+    "partyB": {
+      "name": "VenturePeak Holdings Inc.",
+      "role": "Client",
+      "address": "500 Howard Street, San Francisco, CA 94105"
+    }
+  },
+  "content": "This Master Services Agreement ('Agreement') is made and entered into as of September 29, 2026, by and between Apex Digital Labs LLC ('Contractor') and VenturePeak Holdings Inc. ('Client').\n\n1. SCOPE OF SERVICES: Contractor agrees to perform custom cloud architecture, full-stack application development, and user interface design according to the deliverables specified in active Statements of Work.\n\n2. COMPENSATION & PAYMENT: Client agrees to remit payment within 14 calendar days of invoice presentation. Milestone deliverables will be reviewed within 5 business days of submission.\n\n3. INTELLECTUAL PROPERTY ASSIGNMENT: Upon full and final settlement of all invoiced fees, Contractor irrevocably assigns and transfers to Client all right, title, and interest in and to the custom work product created under this Agreement.\n\n4. CONFIDENTIALITY: Both parties acknowledge that during the engagement, confidential business and technical information may be disclosed. Each party agrees to protect such confidential information with reasonable care for a period of two (2) years.\n\n5. GOVERNING LAW: This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware without regard to its conflict of law principles.",
+  "signatureRequirements": [
+    {
+      "role": "Authorized Representative (Client)",
+      "label": "Client Signatory",
+      "placeholder": "Sign here to execute Agreement"
+    }
+  ]
+}

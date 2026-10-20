@@ -1,0 +1,26 @@
+{
+  "templateId": "tmpl_uae_lease",
+  "title": "Commercial Office Lease Addendum & Fit-Out Terms (DIFC / Dubai)",
+  "jurisdiction": "Dubai International Financial Centre (DIFC) / Dubai, UAE",
+  "documentDate": "2026-09-29",
+  "parties": {
+    "partyA": {
+      "name": "Al Futtaim Commercial Real Estate LLC",
+      "role": "Lessor / Landlord",
+      "address": "Office Tower 2, Sheikh Zayed Road, Dubai, UAE (TRN: 100234891100003)"
+    },
+    "partyB": {
+      "name": "Oasis Pay MENA Financial Services FZ-LLC",
+      "role": "Tenant / Lessee",
+      "address": "Building 5, DIFC Innovation Hub, Dubai, UAE (Trade License: CL-49102)"
+    }
+  },
+  "content": "This Commercial Lease Addendum ('Addendum') supplements the Master Ejari Tenancy Agreement registered with the Dubai Land Department (RERA), executed as of September 29, 2026.\n\n1. LEASED PREMISES: Unit 1402, Level 14, Commercial Tower A, Dubai International Financial Centre, encompassing 3,850 sq. ft. of Grade-A office space.\n\n2. RENTAL PAYMENTS & VAT: Annual rent of AED 580,000 shall be remitted via four (4) equal post-dated cheques. Pursuant to UAE Federal Decree-Law No. 8 of 2017, Value Added Tax (VAT) at 5% applies to all commercial leases and will be billed separately with valid Tax Invoices.\n\n3. FIT-OUT PERIOD & DEPOSIT: Landlord grants Tenant a ninety (90) day rent-free fit-out moratorium commencing from handover. Tenant provides a refundable security deposit of AED 58,000 against property damage.\n\n4. STATUTORY COMPLIANCE: Both parties agree that electronic execution of this contract complies with UAE Federal Decree-Law No. 46 of 2021 on Electronic Transactions and Trust Services, carrying full evidentiary weight before Dubai Courts and DIFC Courts.",
+  "signatureRequirements": [
+    {
+      "role": "Managing Director / Tenant Representative",
+      "label": "Tenant Official Signature & Stamp",
+      "placeholder": "Sign and apply Establishment Stamp"
+    }
+  ]
+}

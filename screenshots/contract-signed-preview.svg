@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 850" width="1000" height="850">
+  <defs>
+    <style>
+      .app-bg { fill: #060913; }
+      .paper-bg { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; rx: 8; }
+      .doc-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, serif; font-size: 20px; font-weight: 900; fill: #0f172a; }
+      .doc-sub { font-family: sans-serif; font-size: 11px; fill: #64748b; }
+      .party-box { fill: #f8fafc; stroke: #e2e8f0; stroke-width: 1; rx: 6; }
+      .party-hdr { font-family: sans-serif; font-size: 11.5px; font-weight: 700; fill: #0f172a; }
+      .party-sub { font-family: sans-serif; font-size: 10px; fill: #64748b; }
+      .clause-txt { font-family: -apple-system, serif; font-size: 11px; fill: #334155; line-height: 1.6; }
+      .sig-box { fill: #f8fafc; stroke: #94a3b8; stroke-dasharray: 4,4; stroke-width: 1; rx: 6; }
+      .sig-line { stroke: #0f172a; stroke-width: 1; }
+      .sig-name { font-family: cursive; font-style: italic; font-size: 20px; fill: #0f172a; }
+      .cert-box { fill: #ffffff; stroke: #243452; stroke-width: 1.5; rx: 8; }
+      .cert-hdr { font-family: sans-serif; font-size: 14px; font-weight: 900; fill: #0f172a; }
+      .cert-row-lbl { font-family: sans-serif; font-size: 10px; font-weight: 700; fill: #64748b; }
+      .cert-row-val { font-family: monospace; font-size: 9.5px; fill: #0f172a; }
+    </style>
+  </defs>
+
+  <rect class="app-bg" width="1000" height="850" />
+
+  <!-- Document Paper Canvas -->
+  <rect class="paper-bg" x="80" y="40" width="840" height="770" />
+
+  <!-- Document Header -->
+  <g transform="translate(120, 80)">
+    <text class="doc-title" x="0" y="20">Master Software Engineering &amp; Design Services Agreement</text>
+    <text class="doc-sub" x="0" y="38">Governing Jurisdiction: State of Delaware, United States • Executed: 2026-09-29</text>
+    <rect fill="rgba(5,150,105,0.06)" stroke="#059669" stroke-width="1.2" x="620" y="5" width="140" height="24" rx="4" />
+    <text font-family="sans-serif" font-size="9" font-weight="800" fill="#059669" x="690" y="20" text-anchor="middle">E-SIGN COMPLIANT</text>
+    <line x1="0" y1="52" x2="760" y2="52" stroke="#0f172a" stroke-width="1.5" />
+  </g>
+
+  <!-- Parties Block -->
+  <g transform="translate(120, 150)">
+    <rect class="party-box" width="370" height="60" />
+    <text class="party-hdr" x="15" y="22">Apex Digital Labs LLC</text>
+    <text class="party-sub" x="15" y="38">Role: Service Provider • 1209 Orange St, Wilmington, DE</text>
+
+    <g transform="translate(390, 0)">
+      <rect class="party-box" width="370" height="60" />
+      <text class="party-hdr" x="15" y="22">VenturePeak Holdings Inc.</text>
+      <text class="party-sub" x="15" y="38">Role: Client • 500 Howard Street, San Francisco, CA</text>
+    </g>
+  </g>
+
+  <!-- Agreement Clauses Snippet -->
+  <g transform="translate(120, 230)">
+    <text class="clause-txt" x="0" y="15">1. SCOPE OF SERVICES: Contractor agrees to perform custom cloud architecture and UI design deliverables.</text>
+    <text class="clause-txt" x="0" y="35">2. COMPENSATION &amp; PAYMENT: Client agrees to remit payment within 14 calendar days of invoice presentation.</text>
+    <text class="clause-txt" x="0" y="55">3. INTELLECTUAL PROPERTY: Upon full settlement of fees, Contractor irrevocably assigns all work product to Client.</text>
+    <text class="clause-txt" x="0" y="75">4. CONFIDENTIALITY: Both parties acknowledge mutual non-disclosure obligations for a period of two (2) years.</text>
+  </g>
+
+  <!-- Signature Execution Block -->
+  <g transform="translate(120, 325)">
+    <!-- Party A Sig -->
+    <rect class="sig-box" width="370" height="110" />
+    <text font-family="sans-serif" font-size="10" font-style="italic" fill="#64748b" x="15" y="30">Executed on behalf of Service Provider</text>
+    <line class="sig-line" x1="15" y1="75" x2="355" y2="75" />
+    <text font-family="sans-serif" font-size="11" font-weight="700" fill="#475569" x="15" y="92">Authorized Signature</text>
+    <text font-family="sans-serif" font-size="10" fill="#64748b" x="15" y="104">Apex Digital Labs LLC • Managing Director</text>
+
+    <!-- Party B Sig (Executed) -->
+    <g transform="translate(390, 0)">
+      <rect class="sig-box" width="370" height="110" />
+      <text class="sig-name" x="20" y="55">Marcus Vance</text>
+      <!-- Seal badge -->
+      <rect fill="rgba(5,150,105,0.06)" stroke="#059669" stroke-dasharray="3,3" stroke-width="1.2" x="200" y="15" width="155" height="24" rx="4" />
+      <text font-family="sans-serif" font-size="9" font-weight="800" fill="#059669" x="277" y="30" text-anchor="middle">★ APPROVED &amp; EXECUTED ★</text>
+
+      <line class="sig-line" x1="15" y1="75" x2="355" y2="75" />
+      <text font-family="sans-serif" font-size="11" font-weight="700" fill="#475569" x="15" y="92">Authorized Signature</text>
+      <text font-family="sans-serif" font-size="10" fill="#64748b" x="15" y="104">Marcus Vance • Chief Technology Officer (m.vance@venturepeak.io)</text>
+    </g>
+  </g>
+
+  <!-- Certificate of Completion -->
+  <g transform="translate(120, 460)">
+    <rect class="cert-box" width="760" height="230" />
+    
+    <g transform="translate(20, 24)">
+      <text font-family="sans-serif" font-size="9" font-weight="800" fill="#2563eb" letter-spacing="1">SIGNSHIELD PRO CRYPTOGRAPHIC AUDIT SERVICE</text>
+      <text class="cert-hdr" x="0" y="24">Certificate of Completion &amp; Electronic Signature</text>
+      <rect fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" x="570" y="-8" width="150" height="24" rx="4" />
+      <text font-family="monospace" font-size="10" font-weight="700" fill="#0f172a" x="645" y="8" text-anchor="middle">SSP-68DA21F-A98B</text>
+
+      <line x1="0" y1="36" x2="720" y2="36" stroke="#e2e8f0" stroke-width="1" />
+
+      <!-- Table rows -->
+      <g transform="translate(0, 52)">
+        <text class="cert-row-lbl" x="0" y="0">Signatory</text>
+        <text font-family="sans-serif" font-size="10" fill="#0f172a" x="180" y="0"><b>Marcus Vance</b> &lt;m.vance@venturepeak.io&gt; • Chief Technology Officer</text>
+
+        <text class="cert-row-lbl" x="0" y="22">Execution Timestamp</text>
+        <text class="cert-row-val" x="180" y="22">2026-09-29T05:52:14Z (UTC Verified)</text>
+
+        <text class="cert-row-lbl" x="0" y="44">Legal Jurisdiction &amp; Acts</text>
+        <text font-family="sans-serif" font-size="10" fill="#475569" x="180" y="44">US ESIGN Act (15 U.S.C. § 7001), UETA, eIDAS, UAE Federal Decree-Law No. 46</text>
+
+        <text class="cert-row-lbl" x="0" y="66">Document Content SHA-256</text>
+        <text class="cert-row-val" fill="#2563eb" x="180" y="66">f336e84af426a8dfa19b45091a18204b77f98a2110c7329dbe0f8812c85e2b01</text>
+
+        <text class="cert-row-lbl" x="0" y="88">Final Audit Digest SHA-256</text>
+        <text class="cert-row-val" fill="#059669" font-weight="700" x="180" y="88">7ca918bb129fa900f074a106e4cc5f8d0521e1a8bb3dfa20993040c5f782390a</text>
+      </g>
+
+      <!-- Bottom verification badge bar -->
+      <g transform="translate(0, 150)">
+        <rect fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" width="720" height="34" rx="6" />
+        <circle cx="20" cy="17" r="6" fill="#059669" />
+        <text font-family="sans-serif" font-size="10" font-weight="800" fill="#059669" x="34" y="21">STATUS: TAMPER-PROOF &amp; CRYPTOGRAPHICALLY SEALED</text>
+      </g>
+    </g>
+  </g>
+</svg>

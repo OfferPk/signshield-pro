@@ -1,0 +1,26 @@
+{
+  "templateId": "tmpl_mutual_nda",
+  "title": "Mutual Non-Disclosure & Proprietary Information Agreement",
+  "jurisdiction": "England and Wales, United Kingdom",
+  "documentDate": "2026-09-29",
+  "parties": {
+    "partyA": {
+      "name": "Kensington Quantum Technologies Ltd",
+      "role": "Disclosing & Receiving Party",
+      "address": "100 Bishopsgate, London EC2N 4AG, United Kingdom"
+    },
+    "partyB": {
+      "name": "Nordic Peak Ventures AB",
+      "role": "Disclosing & Receiving Party",
+      "address": "Kungsgatan 12, 111 35 Stockholm, Sweden"
+    }
+  },
+  "content": "This Mutual Non-Disclosure Agreement ('Agreement') is entered into on September 29, 2026, between Kensington Quantum Technologies Ltd and Nordic Peak Ventures AB (collectively, the 'Parties').\n\n1. PURPOSE: The Parties wish to explore potential joint venture collaboration, API data sharing, and strategic investment ('Permitted Purpose').\n\n2. CONFIDENTIAL INFORMATION: Includes all non-public technical, algorithmic, operational, financial, and product roadmap data disclosed by one party to the other, whether marked proprietary or reasonably understood to be confidential.\n\n3. EXCLUSIONS: Information is not Confidential Information if it is or becomes publicly available without breach, was already known prior to disclosure, or is independently developed without reference to the Disclosing Party's information.\n\n4. OBLIGATIONS: The Receiving Party shall hold all Confidential Information in strict confidence, apply the same degree of care it exercises with its own confidential data, and restrict access exclusively to employees with a verified need to know.\n\n5. DURATION & JURISDICTION: This Agreement remains binding for twenty-four (24) months from execution. The courts of England and Wales shall have exclusive jurisdiction over any disputes arising hereunder.",
+  "signatureRequirements": [
+    {
+      "role": "Authorized Director",
+      "label": "Executive Officer Signature",
+      "placeholder": "Sign to enter into Mutual NDA"
+    }
+  ]
+}
